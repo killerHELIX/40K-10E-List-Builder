@@ -1,3 +1,4 @@
+.devcontainer/id_rsa*
 node_modules
 .parcel-cache
 dist
