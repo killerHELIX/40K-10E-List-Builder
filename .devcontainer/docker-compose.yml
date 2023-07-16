@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  dev:
+    build: .
+    image: dev
+    volumes:
+      - ../:/workspaces/dev
+    command: sleep infinity
